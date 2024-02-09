@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Andasia';
+  src: url('Andasia.ttf'); 
+}
+
+@font-face {
+  font-family: 'Catchy';
+  src: url('Catchy Mager Regular.ttf'); 
+}
+
+* {
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+header {
+  flex-direction: column;
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+    /* background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center;  */
+    height: 700px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.containerDetalles {
+  height: 700px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.containerDetalles .detalles h2 {
+  background-image: url("tiraa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  justify-self: center;
+  font-family: 'Catchy';
+}
+
+
+.bienvenida, 
+.asistencia {
+  background-image: url("fondoescritorio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  justify-self: center;
+}
+
+.detalles p {
+  text-align: justify;
+  text-justify: left;
+}
+
+h1 {
+  font-family: 'Andasia';
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+ul {
+    margin-top: 15px;
+    display:flex;
+    align-items:center;
+    justify-content :center;
+    list-style-type: none;
+    width: auto;
+    min-width: 65px;
+    background-color: none;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: 'Catchy';
+  }
+
+  article{
+    padding: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 600px;
+  }
+
+  p {
+    font-size: large;
+  }
+
+  p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(84, 144, 137);
+  }
+
+  @media only screen and (max-width: 800px) {
+    h1{
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 2em;
+    }
+
+    header p {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: small;
+    }
+    
+    li a {
+      font-size: 1em;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    .bienvenida, 
+    .asistencia {
+      width: 100%;
+      background-image: url("fondo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment:scroll;
+      background-position: center; 
+    }
+
+     
+    .containerDetalles, 
+    .detalles {
+      width: 100%;
+      margin: auto;
+    }
+
+    .detalles p {
+      text-align: left;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+  } 
