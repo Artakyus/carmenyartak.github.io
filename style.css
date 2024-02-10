@@ -23,11 +23,6 @@ header {
 }
 
 .container {
-    /* background-image: url("fondo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:scroll;
-    background-position: center;  */
     height: 700px;
     width: 70%;
     margin: auto;
